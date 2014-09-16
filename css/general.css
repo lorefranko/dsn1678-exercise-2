@@ -70,6 +70,7 @@ body {
 
   color: #e2e2e2;
   text-decoration: none;
+ transition: all 100ms linear;
 
 }
 
@@ -77,7 +78,7 @@ body {
 .chart__item:focus,
 .chart__item:active {
     background-color: rgba(225, 225, 225, 0.5);
-    transition: all 100ms linear;
+
 }
 
 .chart__item:hover .chart__label {
@@ -89,9 +90,9 @@ body {
   bottom: -1.7em;
   position: absolute;
   width: 100%;
-  color: rgba(225, 225, 225, 0.7);
+  color: rgba(225, 225, 225, 0.5);
   text-align: center;
-   transition: color 100ms linear;
+
 }
 
 .chart__bar-wrap {
