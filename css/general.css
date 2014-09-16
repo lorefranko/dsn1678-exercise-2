@@ -112,6 +112,11 @@ body {
 
 }
 
+.chart__bar-wrap:hover .chart__count {
+  opacity: 1;
+  top: -4em;
+
+}
 
 .chart__count {
   display: inline-block;
@@ -126,7 +131,7 @@ body {
   background-color: #000;
   border-radius: 6px;
   opacity: 0;
-
+  transition: all 250ms linear;
   text-align: center;
 }
 
